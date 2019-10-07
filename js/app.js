@@ -1,7 +1,7 @@
 // si esta en localhost es que esta en desarrollo 
 // si dice cualquier otra cosa, estoy en produccion
 var url = window.location.href;
-var swLocation = 'twittor/sw.js'
+var swLocation = '/twittor/sw.js'
 if(navigator.serviceWorker){
     if(url.includes('localhost')){
         swLocation = '/sw.js'
