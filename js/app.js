@@ -1,5 +1,12 @@
+// si esta en localhost es que esta en desarrollo 
+// si dice cualquier otra cosa, estoy en produccion
+var url = window.location.href;
+var swLocation = 'twittor/sw.js'
 if(navigator.serviceWorker){
-    navigator.serviceWorker.register('/sw.js');
+    if(url.includes('localhost')){
+        swLocation = '/sw.js'
+    }
+    navigator.serviceWorker.register(swLocation);
 }
 // Referencias de jQuery
 

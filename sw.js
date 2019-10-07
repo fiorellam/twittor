@@ -6,17 +6,17 @@ const INMUTABLE_CACHE = 'inmutable-v1';
 
 //TODO LO NECESARIO PARA MI APLICACION
 const APP_SHELL = [
-    '/',
-    '/index.html',
-    '/css/style.css',
-    '/img/favicon.ico',
-    '/img/avatars/spiderman.jpg',
-    '/img/avatars/hulk.jpg',
-    '/img/avatars/ironman.jpg',
-    '/img/avatars/thor.jpg',
-    '/img/avatars/wolverine.jpg',
-    '/js/app.js',
-    '/js/sw-utils.js'
+    // '/',
+    'index.html',
+    'css/style.css',
+    'img/favicon.ico',
+    'img/avatars/spiderman.jpg',
+    'img/avatars/hulk.jpg',
+    'img/avatars/ironman.jpg',
+    'img/avatars/thor.jpg',
+    'img/avatars/wolverine.jpg',
+    'js/app.js',
+    'js/sw-utils.js'
 ];
 
 //TODO LO NECESARIO Y QUE NO SE VA A MODIFICAR
@@ -24,7 +24,7 @@ const APP_SHELL_INMUTABLE = [
     'https://fonts.googleapis.com/css?family=Quicksand:300,400',
     'https://fonts.googleapis.com/css?family=Lato:400,300',
     'https://use.fontawesome.com/releases/v5.3.1/css/all.css',
-    '/css/animate.css',
+    'css/animate.css',
     'js/libs/jquery.js'
 ]
 
